@@ -2,7 +2,7 @@
 HWID Spoofer for the popular client-side minecraft anticheat BAC (Badlion Anti-Cheat)
 
 ## Notes
-This is a modified version of `BACSABLE`. This program is super simple, all it does is it removes regedit entries for display monitors and then maps a driver using kdmapper to spoof disk identifiers. 
+This is a modified version of `BACASABLE`. This program is super simple, all it does is it removes regedit entries for display monitors and then maps a driver using kdmapper to spoof disk identifiers. 
 
 ## Changes
 - xorstr 
@@ -26,6 +26,6 @@ This is a modified version of `BACSABLE`. This program is super simple, all it d
 ## Credits
 [Ventaz](https://github.com/Ventaz/) 
 
-[PeterG57](https://github.com/PeterG57/BACSABLE) 
+[PeterG75](https://github.com/PeterG75/BACASABLE) 
 
 [JustasMasiulis](https://github.com/JustasMasiulis/xorstr)
