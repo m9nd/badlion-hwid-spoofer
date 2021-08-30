@@ -2,7 +2,13 @@
 HWID Spoofer for the popular client-side minecraft anticheat BAC (Badlion Anti-Cheat)
 
 ## Notes
-This is a modified version of `BACSABLE`. This is a pretty simple program, all it does is modifies regedit and runs spoofs disk identifiers. I added a changing title to prevent title detections just for learning/fucking around purposes. I also added xorstr because why not. One last thing, I do not know the original creator of `BACSABLE` so if you do, please create an issue and tell me so I can properly credit them.
+This is a modified version of `BACSABLE`. This program is super simple, all it does is it removes regedit entries for display monitors and then maps a driver using kdmapper to spoof disk identifiers. 
+
+## Changes
+- xorstr 
+- Basic debugger detection
+- Changing title to prevent detections
+
 
 ## Installation
 **Step 1** - Create a new C++ Project in VS2019.
@@ -16,3 +22,8 @@ This is a modified version of `BACSABLE`. This is a pretty simple program, all i
 **Step 5** - While in the Project Properties page go to `C/C++` -> `Optimization` -> `Optimization Favor Speed (/Ox)`.
 
 **Step 6** - Exit out of the Project Properties page and compile `Ctrl + B`.
+
+## Credits
+[Ventaz](https://github.com/Ventaz/) 
+[PeterG57](https://github.com/PeterG57/BACSABLE) 
+[JustasMasiulis](https://github.com/JustasMasiulis/xorstr)
