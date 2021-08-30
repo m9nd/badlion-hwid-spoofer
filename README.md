@@ -25,5 +25,7 @@ This is a modified version of `BACSABLE`. This program is super simple, all it d
 
 ## Credits
 [Ventaz](https://github.com/Ventaz/) 
+
 [PeterG57](https://github.com/PeterG57/BACSABLE) 
+
 [JustasMasiulis](https://github.com/JustasMasiulis/xorstr)
