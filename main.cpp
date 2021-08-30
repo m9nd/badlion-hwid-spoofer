@@ -10,7 +10,7 @@ int main() {
 
 	std::string in = (xorstr("qwerty1ui2op5asd7fgh8jkl9zx3c4vb6nm")), out;
 	std::sample(in.begin(), in.end(), std::back_inserter(out),
-    15, std::mt19937{ std::random_device{}() });
+        15, std::mt19937{ std::random_device{}() });
 	SetConsoleTitleA(out.c_str());
 
 	std::cout << (xorstr("Badlion AntiCheat HWID Spoofer\n\n"));
