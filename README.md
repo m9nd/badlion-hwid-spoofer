@@ -12,4 +12,4 @@ HWID Spoofer for the popular client-side minecraft anticheat BAC (Badlion Anti-C
 
 **Step 5** - While in the Project Properties page go to `C/C++` -> `Optimization` -> `Optimization Favor Speed (/Ox)`.
 
-**Step 6** - Exit out of the Project Properties page and compile `Ctrl + Shift + B`.
+**Step 6** - Exit out of the Project Properties page and compile `Ctrl + B`.
