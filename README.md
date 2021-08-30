@@ -6,7 +6,7 @@ HWID Spoofer for the popular client-side minecraft anticheat BAC (Badlion Anti-C
 
 **Step 2** - Create 3 new files, `main.cpp`, `main.h`, and `xorstr.hpp`.
 
-**Step 3** - Copy and paste the code from the files here into the files in VisualStudio.
+**Step 3** - Copy and paste the code from the files here into the files in Visual Studio.
 
 **Step 4** - In the top left go to `Project` -> `Properties` -> `General` -> `C++ language standard` -> `/std:c++17`.
 
