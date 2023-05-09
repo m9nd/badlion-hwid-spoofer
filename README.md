@@ -3,13 +3,15 @@
 this is a modified basic spoofer for the popular client-side minecraft anticheat BAC (badlion anti-cheat)
 
 ## notes
-this is a modified version of `BACASABLE`. this program is super simple, all it does is it removes regedit entries for display monitors and then maps a driver using kdmapper to spoof disk identifiers. 
+this is a modified version of `BACASABLE`. this program is super simple, all it does is it removes regedit entries for display monitors and then maps a driver using kdmapper to spoof disk identifiers. it is very likely this is detected, i just found some old code and got bored so i decided to update it.
 
 ## changes
 - xorstr string encryption
 - intermediate debugger detection
 - changes window title to prevent detections
 
+## fixes
+if you get an "access denied" error, remove the regedit entrys.
 
 ## installation
 **step 1** - create a new C++ project in VS2019.
