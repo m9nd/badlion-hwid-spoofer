@@ -6,6 +6,7 @@
 #include <TlHelp32.h>
 #include <algorithm>
 #include <iostream>
+#include <fstream>
 #include <psapi.h>
 #include <random>
 #include <string>
@@ -81,6 +82,19 @@ int main() {
     system("pause");
 
     std::cout << xorstr("Clearing display monitor information from the registry...\n");
+
+    // save the registry entries before deleting them
+    std::ofstream reg_file(xorstr("reg_backup.txt"));
+    if (reg_file)
+    {
+        system(xorstr("reg export HKLM\\SYSTEM\\ControlSet001\\Enum\\Display reg_backup.txt"));
+        system(xorstr("reg export HKLM\\SYSTEM\\CurrentControlSet\\Enum\\Display reg_backup.txt"));
+        reg_file.close();
+    }
+    else
+    {
+        std::cout << "failed to open file to save registry entries!" << std::endl;
+    }
 
     system(xorstr("reg delete HKLM\\SYSTEM\\ControlSet001\\Enum\\Display /f"));
     system(xorstr("reg delete HKLM\\SYSTEM\\CurrentControlSet\\Enum\\Display /f"));
